@@ -1,0 +1,24 @@
+{
+  "name": "pack-to-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types":"dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@types/react": "^18.3.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.24.0"
+  },
+  "dependencies": {
+    "tslib": "^2.7.0"
+  }
+}
